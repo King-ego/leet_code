@@ -1,4 +1,4 @@
-notes = [10,2,3,5,2,1,4,7,9,6,8,0]
+notes = [10,3,5,2,1,4,7,9,6,8,0, 31, 25, 18, 22, 15, 27, 30, 12, 20]
 
 # Sort List in O(n) time complexity
 def counting_sort(arr):
