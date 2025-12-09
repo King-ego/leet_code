@@ -1,7 +1,7 @@
 notes = [10,3,5,2,1,4,7,9,6,8,0, 31, 25, 18, 22, 15, 27, 30, 12, 20]
 
 # Sort List in O(n) time complexity
-def counting_sort(arr):
+def counting_sort_unique(arr):
     if not arr:
         return arr
 
@@ -23,6 +23,8 @@ def counting_sort(arr):
             count[i] -= 1
     return arr
 
+
+
 if __name__ == "__main__":
-    sorted_notes = counting_sort(notes)
-    print("Sorted notes:", sorted_notes)
+    sorted_notes_unique = counting_sort_unique(notes)
+    print("Sorted notes unique items:", sorted_notes_unique)
